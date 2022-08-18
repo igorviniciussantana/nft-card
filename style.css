@@ -1,5 +1,52 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap");
 
+
+@media (min-width: 1000px){
+
+
+.card{
+
+
+
+  width: 20%;
+}
+
+
+
+}
+
+
+
+
+@media(min-width: 700px) and (max-width:1000px){
+
+
+.card{
+
+width: 40%;
+
+}
+
+
+
+}
+
+
+@media(max-width: 700px){
+
+
+  .card{
+  
+  width: 70%;
+  
+  }
+  
+  
+  
+  }
+
+
+
 * {
   font-family: "Outfit", sans-serif;
   margin: 0;
@@ -20,7 +67,6 @@ body {
   display: flex;
   flex-direction: column;
 
-  width: 20%;
   justify-content: center;
 
   background-color: hsl(216, 50%, 16%);
