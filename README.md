@@ -29,5 +29,13 @@ você pode acessá-lo em [nft-card](https://nft-card-pied.vercel.app/).
 
 ## 👥 - Autores
 
-- [@igorviniciussantana](https://www.github.com/igorviniciussantana)
+
+
+<img src="https://avatars.githubusercontent.com/u/86114583?v=4" alt="drawing" width="100"/>
+
+[@igorviniciussantana](https://www.github.com/igorviniciussantana)
+
+[![Linkedin Badge](https://img.shields.io/badge/-Igor-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/igorviniciussantana/)](https://www.linkedin.com/in/igorviniciussantana/) 
+[![Gmail Badge](https://img.shields.io/badge/-igor.santana@estudante.ifms.edu.br-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:igor.santana@estudante.ifms.edu.br)](mailto:igor.santana@estudante.ifms.edu.br)
+
 
