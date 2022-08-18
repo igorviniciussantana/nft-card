@@ -7,22 +7,27 @@ Ele consiste na estilização de um card de uma coleção de NFTs, criado por Ju
 Abaixo você encontra as demais informações do projeto.
 
 
-## Acessar o Desafio
+## ✔ - Acessar o Desafio
 
 Você pode fazer sua versão do projeto acessando:
 - [nft-preview-card-component](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
-## Deploy
+## 🔗 - Deploy
 Esse projeto está disponível na Vercel e
 você pode acessá-lo em [nft-card](https://nft-card-pied.vercel.app/).
 
 
-## Screenshots
+## 📸 - Screenshots
+
+### ⠀⠀⠀🖥 - Versão Desktop
 
 ![image](https://user-images.githubusercontent.com/86114583/185429724-bdf964aa-99af-42d2-93e9-dfb49e90ff7a.png)
 
+### ⠀⠀⠀📱 - Versão Mobile
+
+![image](https://user-images.githubusercontent.com/86114583/185430308-1152bcc3-c24d-440a-ad6e-15651c51fcec.png)
 
 
-## Autores
+## 👥 - Autores
 
 - [@igorviniciussantana](https://www.github.com/igorviniciussantana)
 
