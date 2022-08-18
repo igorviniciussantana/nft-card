@@ -1,49 +1,62 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap");
 
 
-@media (min-width: 1000px){
+@media (min-width: 1000px) {
 
 
-.card{
-
-
-
-  width: 20%;
-}
+  .card {
 
 
 
-}
-
-
-
-
-@media(min-width: 700px) and (max-width:1000px){
-
-
-.card{
-
-width: 40%;
-
-}
-
-
-
-}
-
-
-@media(max-width: 700px){
-
-
-  .card{
-  
-  width: 70%;
-  
+    width: 20%;
   }
-  
-  
-  
+
+
+
+}
+
+
+
+
+@media(min-width: 700px) and (max-width:1000px) {
+
+
+  .card {
+
+    width: 40%;
+
   }
+
+  body {
+    padding: 20px 0;
+    flex-direction: column;
+    row-gap: 20px;
+
+  }
+
+
+
+}
+
+
+@media(max-width: 700px) {
+
+
+  .card {
+
+    width: 70%;
+
+  }
+
+  body {
+    padding: 20px 0;
+    flex-direction: column;
+    row-gap: 20px;
+
+  }
+
+
+}
 
 
 
@@ -58,9 +71,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  column-gap: 20px;
 
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
+
 }
 
 .card {
@@ -72,15 +87,87 @@ body {
   background-color: hsl(216, 50%, 16%);
   padding: 20px;
   border-radius: 10px;
-
+  transition: 500ms;
   row-gap: 14px;
 }
+
+.card:hover {
+
+  transform: translateY(-20px);
+  transition: 500ms;
+
+
+}
+
+.img {
+  width: 100%;
+  align-self: center;
+
+  position: relative;
+
+
+
+
+}
+
 
 .card-image {
   width: 100%;
   border-radius: 10px;
-  align-self: center;
+
 }
+
+.verde {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: hsl(178, 100%, 50%);
+  opacity: 70%;
+  border-radius: 10px;
+  display: none;
+
+
+}
+
+.eye {
+
+  left: 50%;
+  margin-left: -50px;
+  top: 50%;
+
+  position: absolute;
+
+  transform: translate(50%);
+  transition: 500ms;
+
+  display: none;
+}
+
+
+.img:hover .eye {
+
+
+  display: block;
+  cursor: pointer;
+  transition: 500ms;
+
+
+}
+
+.img:hover .verde {
+
+
+  display: block;
+  cursor: pointer;
+
+
+
+}
+
+
 
 p {
   align-self: center;
@@ -103,14 +190,14 @@ p {
   color: hsl(215, 51%, 70%);
 }
 
-.author span .name{
+.author span .name {
 
-color: hsl(0, 0%, 100%);
-font-weight: 500;
+  color: hsl(0, 0%, 100%);
+  font-weight: 500;
 
 }
 
-hr{
+hr {
 
   width: 100%;
   height: 0.5px;
@@ -133,7 +220,17 @@ hr{
 .title {
   color: hsl(0, 0%, 100%);
   font-weight: 600;
-  font-size: 20px;
+  font-size: 22px;
+  transition: 500ms;
+}
+
+.title:hover {
+
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+  transition: 500ms;
+
+
 }
 
 .description {
@@ -162,8 +259,8 @@ hr{
   margin-right: 10px;
 }
 
-.atributtion{
+.atributtion {
 
-display: flex;
+  display: flex;
 
 }
